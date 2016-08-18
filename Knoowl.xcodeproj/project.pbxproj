@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176195B71D653DAB000128DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176195B61D653DAB000128DE /* main.m */; };
+		176195BA1D653DAB000128DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 176195B91D653DAB000128DE /* AppDelegate.m */; };
+		176195BD1D653DAB000128DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176195BC1D653DAB000128DE /* ViewController.m */; };
+		176195C01D653DAB000128DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176195BE1D653DAB000128DE /* Main.storyboard */; };
+		176195C31D653DAB000128DE /* Knoowl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 176195C11D653DAB000128DE /* Knoowl.xcdatamodeld */; };
+		176195C51D653DAB000128DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176195C41D653DAB000128DE /* Assets.xcassets */; };
+		176195C81D653DAB000128DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176195C61D653DAB000128DE /* LaunchScreen.storyboard */; };
+		176195D31D653DAB000128DE /* KnoowlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176195D21D653DAB000128DE /* KnoowlTests.m */; };
+		176195DE1D653DAB000128DE /* KnoowlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 176195DD1D653DAB000128DE /* KnoowlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176195CF1D653DAB000128DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176195AA1D653DAB000128DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176195B11D653DAB000128DE;
+			remoteInfo = Knoowl;
+		};
+		176195DA1D653DAB000128DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176195AA1D653DAB000128DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176195B11D653DAB000128DE;
+			remoteInfo = Knoowl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176195B21D653DAB000128DE /* Knoowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knoowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176195B61D653DAB000128DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		176195B81D653DAB000128DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		176195B91D653DAB000128DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		176195BB1D653DAB000128DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		176195BC1D653DAB000128DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		176195BF1D653DAB000128DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		176195C21D653DAB000128DE /* Knoowl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Knoowl.xcdatamodel; sourceTree = "<group>"; };
+		176195C41D653DAB000128DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176195C71D653DAB000128DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		176195C91D653DAB000128DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176195CE1D653DAB000128DE /* KnoowlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnoowlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176195D21D653DAB000128DE /* KnoowlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnoowlTests.m; sourceTree = "<group>"; };
+		176195D41D653DAB000128DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176195D91D653DAB000128DE /* KnoowlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnoowlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176195DD1D653DAB000128DE /* KnoowlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnoowlUITests.m; sourceTree = "<group>"; };
+		176195DF1D653DAB000128DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176195AF1D653DAB000128DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195CB1D653DAB000128DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195D61D653DAB000128DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176195A91D653DAB000128DE = {
+			isa = PBXGroup;
+			children = (
+				176195B41D653DAB000128DE /* Knoowl */,
+				176195D11D653DAB000128DE /* KnoowlTests */,
+				176195DC1D653DAB000128DE /* KnoowlUITests */,
+				176195B31D653DAB000128DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176195B31D653DAB000128DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176195B21D653DAB000128DE /* Knoowl.app */,
+				176195CE1D653DAB000128DE /* KnoowlTests.xctest */,
+				176195D91D653DAB000128DE /* KnoowlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176195B41D653DAB000128DE /* Knoowl */ = {
+			isa = PBXGroup;
+			children = (
+				176195B81D653DAB000128DE /* AppDelegate.h */,
+				176195B91D653DAB000128DE /* AppDelegate.m */,
+				176195BB1D653DAB000128DE /* ViewController.h */,
+				176195BC1D653DAB000128DE /* ViewController.m */,
+				176195BE1D653DAB000128DE /* Main.storyboard */,
+				176195C41D653DAB000128DE /* Assets.xcassets */,
+				176195C61D653DAB000128DE /* LaunchScreen.storyboard */,
+				176195C91D653DAB000128DE /* Info.plist */,
+				176195C11D653DAB000128DE /* Knoowl.xcdatamodeld */,
+				176195B51D653DAB000128DE /* Supporting Files */,
+			);
+			path = Knoowl;
+			sourceTree = "<group>";
+		};
+		176195B51D653DAB000128DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176195B61D653DAB000128DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176195D11D653DAB000128DE /* KnoowlTests */ = {
+			isa = PBXGroup;
+			children = (
+				176195D21D653DAB000128DE /* KnoowlTests.m */,
+				176195D41D653DAB000128DE /* Info.plist */,
+			);
+			path = KnoowlTests;
+			sourceTree = "<group>";
+		};
+		176195DC1D653DAB000128DE /* KnoowlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				176195DD1D653DAB000128DE /* KnoowlUITests.m */,
+				176195DF1D653DAB000128DE /* Info.plist */,
+			);
+			path = KnoowlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176195B11D653DAB000128DE /* Knoowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176195E21D653DAB000128DE /* Build configuration list for PBXNativeTarget "Knoowl" */;
+			buildPhases = (
+				176195AE1D653DAB000128DE /* Sources */,
+				176195AF1D653DAB000128DE /* Frameworks */,
+				176195B01D653DAB000128DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knoowl;
+			productName = Knoowl;
+			productReference = 176195B21D653DAB000128DE /* Knoowl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176195CD1D653DAB000128DE /* KnoowlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176195E51D653DAB000128DE /* Build configuration list for PBXNativeTarget "KnoowlTests" */;
+			buildPhases = (
+				176195CA1D653DAB000128DE /* Sources */,
+				176195CB1D653DAB000128DE /* Frameworks */,
+				176195CC1D653DAB000128DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176195D01D653DAB000128DE /* PBXTargetDependency */,
+			);
+			name = KnoowlTests;
+			productName = KnoowlTests;
+			productReference = 176195CE1D653DAB000128DE /* KnoowlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		176195D81D653DAB000128DE /* KnoowlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176195E81D653DAB000128DE /* Build configuration list for PBXNativeTarget "KnoowlUITests" */;
+			buildPhases = (
+				176195D51D653DAB000128DE /* Sources */,
+				176195D61D653DAB000128DE /* Frameworks */,
+				176195D71D653DAB000128DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176195DB1D653DAB000128DE /* PBXTargetDependency */,
+			);
+			name = KnoowlUITests;
+			productName = KnoowlUITests;
+			productReference = 176195D91D653DAB000128DE /* KnoowlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176195AA1D653DAB000128DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pedro Luiz Martins Cruz";
+				TargetAttributes = {
+					176195B11D653DAB000128DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					176195CD1D653DAB000128DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 176195B11D653DAB000128DE;
+					};
+					176195D81D653DAB000128DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 176195B11D653DAB000128DE;
+					};
+				};
+			};
+			buildConfigurationList = 176195AD1D653DAB000128DE /* Build configuration list for PBXProject "Knoowl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 176195A91D653DAB000128DE;
+			productRefGroup = 176195B31D653DAB000128DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176195B11D653DAB000128DE /* Knoowl */,
+				176195CD1D653DAB000128DE /* KnoowlTests */,
+				176195D81D653DAB000128DE /* KnoowlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176195B01D653DAB000128DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176195C81D653DAB000128DE /* LaunchScreen.storyboard in Resources */,
+				176195C51D653DAB000128DE /* Assets.xcassets in Resources */,
+				176195C01D653DAB000128DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195CC1D653DAB000128DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195D71D653DAB000128DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176195AE1D653DAB000128DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176195BD1D653DAB000128DE /* ViewController.m in Sources */,
+				176195C31D653DAB000128DE /* Knoowl.xcdatamodeld in Sources */,
+				176195BA1D653DAB000128DE /* AppDelegate.m in Sources */,
+				176195B71D653DAB000128DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195CA1D653DAB000128DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176195D31D653DAB000128DE /* KnoowlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176195D51D653DAB000128DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176195DE1D653DAB000128DE /* KnoowlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176195D01D653DAB000128DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176195B11D653DAB000128DE /* Knoowl */;
+			targetProxy = 176195CF1D653DAB000128DE /* PBXContainerItemProxy */;
+		};
+		176195DB1D653DAB000128DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176195B11D653DAB000128DE /* Knoowl */;
+			targetProxy = 176195DA1D653DAB000128DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		176195BE1D653DAB000128DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176195BF1D653DAB000128DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		176195C61D653DAB000128DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176195C71D653DAB000128DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176195E01D653DAB000128DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176195E11D653DAB000128DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176195E31D653DAB000128DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Knoowl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.Knoowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		176195E41D653DAB000128DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Knoowl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.Knoowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		176195E61D653DAB000128DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnoowlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.KnoowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knoowl.app/Knoowl";
+			};
+			name = Debug;
+		};
+		176195E71D653DAB000128DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnoowlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.KnoowlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knoowl.app/Knoowl";
+			};
+			name = Release;
+		};
+		176195E91D653DAB000128DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnoowlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.KnoowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Knoowl;
+			};
+			name = Debug;
+		};
+		176195EA1D653DAB000128DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnoowlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.iesb.KnoowlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Knoowl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176195AD1D653DAB000128DE /* Build configuration list for PBXProject "Knoowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176195E01D653DAB000128DE /* Debug */,
+				176195E11D653DAB000128DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176195E21D653DAB000128DE /* Build configuration list for PBXNativeTarget "Knoowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176195E31D653DAB000128DE /* Debug */,
+				176195E41D653DAB000128DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		176195E51D653DAB000128DE /* Build configuration list for PBXNativeTarget "KnoowlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176195E61D653DAB000128DE /* Debug */,
+				176195E71D653DAB000128DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		176195E81D653DAB000128DE /* Build configuration list for PBXNativeTarget "KnoowlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176195E91D653DAB000128DE /* Debug */,
+				176195EA1D653DAB000128DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		176195C11D653DAB000128DE /* Knoowl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				176195C21D653DAB000128DE /* Knoowl.xcdatamodel */,
+			);
+			currentVersion = 176195C21D653DAB000128DE /* Knoowl.xcdatamodel */;
+			path = Knoowl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 176195AA1D653DAB000128DE /* Project object */;
+}
